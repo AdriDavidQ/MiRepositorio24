@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+main.register {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="password"],
+form input[type="file"] {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form label {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+form h4 {
+    margin: 20px 0 10px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    margin: 10px 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0044aa;
+    color: #fff;
+}
+
+form input[type="reset"] {
+    background-color: #ccc;
+    color: #000;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    opacity: 0.9;
+}
+
+form .profile,
+form .interests {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+form .interests div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+form .interests div label {
+    margin-left: 5px;
+}
