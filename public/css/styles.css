@@ -12,7 +12,7 @@ body {
     background-color: #ebebeb;
 }
 
-/* CSS HOME */
+/* STYLES CSS HOME */
 
 .box-conteiner {
     display: flex;
@@ -177,7 +177,7 @@ img {
     padding: 10px;
     position: relative;
 }
-
+    /* CAMIONCITO */
 .fa-truck {
     display: block;
     font-size: 16px;
@@ -191,15 +191,15 @@ img {
     position: absolute;
     right: 20px;
     top: -15px;
-    transition: transform 700ms;
+    transition: transform 800ms;
 }
-
+/* CAMIONCITO CON ANIMACION */
 .fa-truck:hover {
     cursor: pointer;
     transform: rotate(-90deg);
 }
 
-
+/* CSS EN EL FOOTER */
 footer h4 {
     color: #666;
 }
@@ -215,7 +215,7 @@ footer i {
     font-size: 14px;
 }
 
-/* CSS DEL LOGIN */
+/* STYLES DEL LOGIN */
 
 .contenedor-login {
     text-align: center;
@@ -286,7 +286,7 @@ footer i {
 }
 
 
-/* CSS DEL REGISTER */
+/* STYLES CSS DEL REGISTER */
 
 .container-register {
     max-width: 600px;
@@ -395,7 +395,7 @@ input[type="file"] {
 }
 
 
-/* MEDIAS QUERIES*/
+/* STYLES CSS MEDIAS QUERIES*/
 
 
 @media (min-width: 481px) {
